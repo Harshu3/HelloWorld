@@ -16,7 +16,7 @@ namespace HelloWorld.Encapsulation
 
             set { studentName = value; }
         }
-        //public string StudentName { get; set; }
+        //public string StudentName { get; set; } - short code
 
         public String Age
         {

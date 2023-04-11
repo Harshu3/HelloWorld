@@ -16,7 +16,7 @@ namespace HelloWorld.Polymorphism
         }
         public void AnimalDetails()
         {
-            Console.WriteLine("Name of the animal: " + name);
+            Console.WriteLine("Name of the Animal: " + name);
         }
     }
     class Lion:Animal

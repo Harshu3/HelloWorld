@@ -19,7 +19,7 @@ namespace HelloWorld.Polymorphism
             Console.WriteLine("Sum of numbers are: " + (first + second + third));
         }
 
-        //changing datatype compared to 2nd method
+        //changing datatypes compared to 2nd method
         public void AddNumbers(int first, double second, int third)
         {
             double res = first + second + third;

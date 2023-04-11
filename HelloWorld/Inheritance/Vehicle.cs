@@ -12,7 +12,7 @@ namespace HelloWorld.Inheritance
 
         public void Start()
         {
-            Console.WriteLine("Vehicle started");
+            Console.WriteLine("Vehicle is started");
         }
     }
 }
