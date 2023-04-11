@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld.Inheritance
 {
-    internal class Vehicle
+    internal class Vehicle 
     {
         public string brand;
 

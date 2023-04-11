@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld.Inheritance
 {
-    internal class Car:Vehicle
+    internal class Car:Vehicle 
     {
         public int modelNumber;
     }

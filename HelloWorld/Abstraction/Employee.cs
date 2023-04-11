@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld.Abstraction
 {
-    abstract internal class Employee
+    abstract internal class Employee //abstract class
     {
         public string name;
 

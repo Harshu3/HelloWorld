@@ -10,7 +10,7 @@ namespace HelloWorld.Abstraction
     {
         public override void GetSalary()
         {
-            Console.WriteLine("Employee salary is: 56000");
+            Console.WriteLine("Employee salary is: 50000");
         }
     }
 }

@@ -12,7 +12,7 @@ namespace HelloWorld.Polymorphism
 
         public virtual void Run()
         {
-            Console.WriteLine("Running slow");
+            Console.WriteLine("Running Slow");
         }
         public void AnimalDetails()
         {
@@ -23,7 +23,7 @@ namespace HelloWorld.Polymorphism
     {
         public override void Run()
         {
-            Console.WriteLine("Running fast");
+            Console.WriteLine("Running Fast");
         }
     }
 }

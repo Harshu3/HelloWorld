@@ -10,27 +10,27 @@ namespace HelloWorld.Polymorphism
     {
         public void AddNumbers(int first, int second)
         {
-            Console.WriteLine("Sum of numbers: " + first + second);
+            Console.WriteLine("Sum of numbers are: " + first + second);
         }
 
         //varrying number of parameters compared to 1st method
         public void AddNumbers(int first, int second, int third)
         {
-            Console.WriteLine("Sum of numbers: " + (first + second + third));
+            Console.WriteLine("Sum of numbers are: " + (first + second + third));
         }
 
         //changing datatype compared to 2nd method
         public void AddNumbers(int first, double second, int third)
         {
             double res = first + second + third;
-            Console.WriteLine("Sum of numbers: " + res);
+            Console.WriteLine("Sum of numbers are: " + res);
         }
 
         //changing order compared to 3rd method
         public void AddNumbers(double second, int first, int third)
         {
             double res = first + second + third;
-            Console.WriteLine("Sum of numbers: " + res);
+            Console.WriteLine("Sum of numbers are: " + res);
         }
     }
 }
