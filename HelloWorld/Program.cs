@@ -12,7 +12,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to my Program!");
+            Console.WriteLine("Welcome to My Program!");
             Console.WriteLine("Please choose 1 program from below options:");
             Console.WriteLine("1.Human\n2.Inheritance\n3.Method Overloading\n4.Method Overriding\n5.Employee Details\n6.Encapsulation");
             int option=Convert.ToInt32(Console.ReadLine());
