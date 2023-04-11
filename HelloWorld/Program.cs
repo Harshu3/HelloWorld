@@ -34,6 +34,7 @@ namespace HelloWorld
                     Console.WriteLine("Please enter your age");
                     human.age = Convert.ToInt32(Console.ReadLine());
                     human.Speak();
+                    human.Walk();
                     human.HumanDetails(human.name, human.height, human.weight, human.age);
                     break;
                 case 2:
